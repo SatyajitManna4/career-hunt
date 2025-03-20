@@ -8,9 +8,6 @@ $password = "";
  
 $dbname = "career_hunt";
 
-
-
-
 // Create connection
 
 $conn = new mysqli($servername, $username, $password, $dbname);
