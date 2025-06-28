@@ -193,9 +193,8 @@ function selectloopQuery($tablename,$query=false){
 function filter_string($string){
 
 	$string = preg_replace('/\s+/', '-', $string);
-$string = preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
-
-   $string =  preg_replace('/-+/', '-', $string);
+	$string= preg_replace('/[^A-Za-z0-9\-]/', '', $string); // Removes special chars.
+   	$string =  preg_replace('/-+/', '-', $string);
    
 	return strtolower($string);
 
@@ -260,7 +259,7 @@ if (! function_exists('image_url')) {
 }
 function generate_string(){
 	$length = 4;
-	  $characters = '0123456789abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOQRSTUVWXYZ';
+	$characters = '0123456789abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
     for ($i = 0; $i < $length; $i++) {
@@ -1547,9 +1546,7 @@ function queryanwerscount($qid){
         return $negative . convert_number_to_words(abs($number));
 
     }
-
-
-
+	
     $string = $fraction = null;
 
 
