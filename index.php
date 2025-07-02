@@ -274,73 +274,10 @@
 							<!--<p class="mb-0">6419 COLLEGES</p>-->
 						</a>
 					</div>
-<!--					<div class="col-lg-2 col-md-3 col-sm-4">
-						<a href="#" class="single-pricing-pack d-block text-center mb-3 p-2 bg-white">
-							<img src="assets/img/icons/agriculture.svg" width="50px">
-							<h4 class="mt-3 mb-1 font-weight-700 font-16 text-uppercase">Agriculture</h4>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-3 col-sm-4">
-						<a href="#" class="single-pricing-pack d-block text-center mb-3 p-2 bg-white">
-							<img src="assets/img/icons/house-design.svg" width="50px">
-							<h4 class="mt-3 mb-1 font-weight-700 font-16 text-uppercase">Architecture</h4>
-						</a>
-					</div>
-					<div class="col-lg-2 col-md-3 col-sm-4">
-						<a href="#" class="single-pricing-pack d-block text-center mb-3 p-2 bg-white">
-							<img src="assets/img/icons/tooth.svg" width="50px">
-							<h4 class="mt-3 mb-1 font-weight-700 font-16 text-uppercase">Dental</h4>
-						</a>
-					</div>-->
                 </div>
             </div>
         </section>
-		
-        <!--section class="promo-section pt-40 pb-40">
-            <div class="container">
-				
-                <div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12">
-						<div class="text-center mb-4">
-							<h3 class="mb-2 font-36">STUDY ABROAD</h3>
-							<p>Interested in studying abroad? Choose a country</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="border rounded text-center mb-3 bg-white">
-							<img src="assets/img/flags/canada.jpg" width="100%">
-							<h4 class="mt-2 mb-2 font-weight-700 font-16 text-uppercase">CANADA</h4>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="border rounded text-center mb-3 bg-white">
-							<img src="assets/img/flags/uk.jpg" width="100%">
-							<h4 class="mt-2 mb-2 font-weight-700 font-16 text-uppercase">UK</h4>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="border rounded text-center mb-3 bg-white">
-							<img src="assets/img/flags/AUSTRALIA.jpg" width="100%">
-							<h4 class="mt-2 mb-2 font-weight-700 font-16 text-uppercase">AUSTRALIA</h4>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="border rounded text-center mb-3 bg-white">
-							<img src="assets/img/flags/usa.jpg" width="100%">
-							<h4 class="mt-2 mb-2 font-weight-700 font-16 text-uppercase">USA</h4>
-						</div>
-					</div>
-                </div>
-            </div>
-        </section-->
-        
-        <!--section class="bg-white">
-            <div class="container pt-4 pb-2">
-                <img src="assets/img/ads/niit-long.jpeg" width="100%" class="border rounded">
-            </div>
-        </section-->
-        
-        
+		       
 		
 		<section class="promo-section pt-20 pb-20 pt-lg-50 pb-lg-40 bg-white-f9">
             <div class="container-fluid">

@@ -6,7 +6,7 @@ $username = "root";
 
 $password = "";
  
-$dbname = "career_hunt";
+$dbname = "career_huntdb";
 
 // Create connection
 

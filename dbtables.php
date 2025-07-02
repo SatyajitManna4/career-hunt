@@ -57,6 +57,6 @@ mod_date TIMESTAMP
 )ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci";
 if ($conn->query($sql) === TRUE) {
    echo "Table news created successfully";
-}  
+}
 /* mysqli_query($conn,"drop table colleges"); */
 ?>
