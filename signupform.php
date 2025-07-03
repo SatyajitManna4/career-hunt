@@ -111,10 +111,10 @@
                     required>
                 <i class="fa-solid fa-eye toggle-password" onclick="togglePassword('confirm_password', this)"></i>
             </div>
-            <button class="btn" type="submit">Sign Up</button>
+            <button class="btn" type="submit" <a href="signinform.php">Sign Up</a></button>
         </form>
         <div class="toggle-link">
-            Already have an account? <a href="signin.html">Sign In</a>
+            Already have an account? <a href="signinform.php">Sign In</a>
         </div>
     </div>
 

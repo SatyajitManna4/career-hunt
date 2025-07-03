@@ -1,15 +1,10 @@
 <?php
 require('./dbconfig.php');
 
-$userName= $_POST['username'];
-$usergmail= $_POST['gmail'];
-$userpassword= $_POST['password'];
-$usermobile= $_POST['mobile'];
-
-// $userName = "Satyajit";
-// $usergmail = "satyajitmanna35@gmail.com";
-// $userpassword = "Satyajit@1234";
-// $usermobile = 8967104521;
+$userName = $_POST['username'];
+$usergmail = $_POST['gmail'];
+$userpassword = $_POST['password'];
+$usermobile = $_POST['mobile'];
 
 $query = "SELECT * FROM userinformation WHERE Gmail='$usergmail' ";
 
@@ -25,7 +20,11 @@ VALUES
     $result = mysqli_query($conn, $query);
 
     if (mysqli_affected_rows($conn) > 0) {
-        echo "usersets";
+        //    header("Location: signinform.php"); 
+        echo "<script>
+             window.alert('user saved successfully') ;
+            window.location.href='./signinform.php';
+            </script>";
         mysqli_close($conn);
     } else
         echo "users not set";

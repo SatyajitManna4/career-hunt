@@ -122,7 +122,7 @@
             <button class="btn" type="submit">Sign In</button>
         </form>
         <div class="toggle-link">
-            Don't have an account? <a href="signup.html">Sign Up</a>
+            Don't have an account? <a href="signupform.php">Sign Up</a>
         </div>
     </div>
 
