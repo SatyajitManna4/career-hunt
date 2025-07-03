@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sign Up</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
@@ -58,6 +58,22 @@
             color: #888;
         }
 
+        .forgot-password {
+            text-align: right;
+            margin-top: -10px;
+            margin-bottom: 15px;
+        }
+
+        .forgot-password a {
+            font-size: 13px;
+            color: #000DFF;
+            text-decoration: none;
+        }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
         .btn {
             width: 100%;
             background: #000DFF;
@@ -91,36 +107,28 @@
 
 <body>
     <div class="form-container">
-        <h2>Create Account</h2>
-        <form action="signUp.php" method="POST">
-            <div class="form-field">
-                <input type="text" name="username" placeholder="Full Name" required>
-            </div>
+        <h2>Welcome Back</h2>
+        <form action="./signIn.php" method="POST">
             <div class="form-field">
                 <input type="email" name="gmail" placeholder="Email" required>
             </div>
             <div class="form-field">
-                <input type="text" name="mobile" placeholder="Mobile Number" required>
+                <input type="password" name="password" id="signinPassword" placeholder="Password" required>
+                <i class="fa-solid fa-eye toggle-password" onclick="togglePassword('signinPassword', this)"></i>
             </div>
-            <div class="form-field">
-                <input type="password" name="password" id="password" placeholder="Password" required>
-                <i class="fa-solid fa-eye toggle-password" onclick="togglePassword('password', this)"></i>
+            <div class="forgot-password">
+                <a href="forgot_password.html">Forgot Password?</a>
             </div>
-            <div class="form-field">
-                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password"
-                    required>
-                <i class="fa-solid fa-eye toggle-password" onclick="togglePassword('confirm_password', this)"></i>
-            </div>
-            <button class="btn" type="submit">Sign Up</button>
+            <button class="btn" type="submit">Sign In</button>
         </form>
         <div class="toggle-link">
-            Already have an account? <a href="signin.html">Sign In</a>
+            Don't have an account? <a href="signup.html">Sign Up</a>
         </div>
     </div>
 
     <script>
-        function togglePassword(id, icon) {
-            const field = document.getElementById(id);
+        function togglePassword(fieldId, icon) {
+            const field = document.getElementById(fieldId);
             if (field.type === "password") {
                 field.type = "text";
                 icon.classList.remove("fa-eye");

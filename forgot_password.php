@@ -87,6 +87,7 @@
 </head>
 
 <body>
+    
     <div class="form-container">
         <h2>Forgot Password?</h2>
         <p>Enter your registered email to receive reset instructions.</p>

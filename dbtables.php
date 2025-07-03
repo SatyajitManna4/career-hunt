@@ -12,7 +12,7 @@ mod_date TIMESTAMP
 if ($conn->query($sql) === TRUE) {
     echo "Table superadmin created successfully";
 }
- $sql = "CREATE TABLE leads(
+$sql = "CREATE TABLE leads(
 ID INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 name text NOT NULL,
 email text NOT NULL,
